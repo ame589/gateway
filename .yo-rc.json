@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "it.eng.gateway",
+      "nativeLanguage": "it"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "it.eng.gateway",
+    "packageFolder": "it/eng/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "NGQwOWRkMmRiZjdmOGM0MDQ3ZDdjNmE4MWVhNjY4Y2Q0YTQxMjE3NGNhZGJlYjgxMjgwM2ViNjE2ZDlkNzQ4ZmJjYjk2OGNlMDBjYjZhODRhMjlkMTI2ZGM1ZDkzOWQ5MjE2NmJkNmMyZTFiNTk4MWM1YjY1ZGIxZGM1ZTY5ZDU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1599558908474,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "it",
+    "languages": ["it", "nl", "en"],
+    "blueprints": []
+  }
+}
