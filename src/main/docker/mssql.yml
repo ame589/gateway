@@ -3,13 +3,13 @@ services:
   gateway-mssql:
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
     # volumes are not supported on macOS
-    # volumes:
-    #     - ~/volumes/jhipster/tempdb/mssql/:/var/opt/mssql/data/
+    volumes:
+      - C:\Users\matortor\Desktop\mssql-volume:/var/opt/mssql/data/
     environment:
       - ACCEPT_EULA=Y
       - MSSQL_PID=Express
-      - SA_PASSWORD=yourStrong(!)Password
-      - MSSQL_DATABASE=gateway
+      - SA_PASSWORD=test123!
+      - MSSQL_DATABASE=folletto_test
       - MSSQL_SLEEP=60
     ports:
       - 1433:1433
